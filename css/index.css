@@ -1,0 +1,12 @@
+@import "home.css"; /*el import es indistinto entre mayusculas y minusculas */
+@import "button.css"; 
+@import "form.css"; 
+@import "navbar.css"; 
+body{
+    box-sizing: border-box;
+    text-align: center;
+}
+.centrar{
+    text-align: center;
+    color: red;
+}

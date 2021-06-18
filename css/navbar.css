@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    inline-size: 100vw;
+    block-size: 10vh;
+    margin-block-end: 2rem;
+    border-bottom : 2px solid coral;
+    
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+}

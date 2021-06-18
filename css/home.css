@@ -1,0 +1,28 @@
+.home {
+    background: #f5f5f5;
+    /* propiedades lógicas, a diferencia de las fisicas como padding-left:  etc */
+    ;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+    padding-block-start: 1rem;
+    padding-block-end: 1.5rem;
+    block-size: 10rem;
+    inline-size: 50vw;
+    /* siempre la mitad de cualquier pantalla más el padding que tiene en las propiedades de arriba */
+    margin: auto;
+    /* centra el contenedor */
+}
+
+.home h1 {
+    color: coral;
+}
+
+.home a {
+    text-decoration: none;
+}
+
+/* nth:child() no lo acepta pero type si */
+
+.home a:nth-of-type(1) {
+    margin-inline-end: 1rem;
+}

@@ -1,0 +1,16 @@
+.button{
+    border-radius: 0.5rem;
+    box-shadow: 2px 3px yellowgreen;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.button-primary{
+    background: blueviolet;
+    color: white;
+}
+
+.button-secondary{
+    background: white;
+    color: blueviolet;
+}
